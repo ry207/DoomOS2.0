@@ -4,8 +4,10 @@ lea di, [data] ; Load data address as DI (destination index)
 
 %define ENDL 0x0D, 0x0A
 
-mov ax, 0x3     ;clear scree
-int 10h         ;clear screen pt2
+start:
+    mov ax, 0x3     ;clear scree
+    int 10h         ;clear screen pt2
+    jmp space
 
 ;new line
 space:
@@ -43,6 +45,8 @@ type:
     mov [bx], al ; Copy character into BX
     cmp al, 0x0d
     je prepare_print ; Enter
+    cmp al, 45      ;the - key prints new screen
+    je start
     cmp al, 0x08
     je remove_byte ; Backspace
     cmp di, end_of_data
