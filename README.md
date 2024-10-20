@@ -1,6 +1,6 @@
 <h1>Boot instructions</h1>
 
-In the DoomOS Dir, type:
+In the DoomOS2.0 Dir, type:
 ```
 nasm -f bin input.asm -o boot.bin
 ```
