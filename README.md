@@ -1,6 +1,8 @@
-To boot, in the DoomOS Dir, type:
+<h1>Boot instructions</h1>
+
+In the DoomOS Dir, type:
 ```
-nasm -f bin boot.asm -o boot.bin
+nasm -f bin input.asm -o boot.bin
 ```
 then...
 ```
@@ -8,10 +10,12 @@ qemu-system-x86_64 boot.bin
 ```
 And it should boot up!
 
+<h1>Basic commands:</h1>
 
+<p>
 There is no bootloader or kernel, none of it is programmed in c, just assembly
-planning on adding a bootloader and all that at some point
-
+planning on adding a bootloader and all that at some point</p>
+<small>
 Thanks youtube:eprograms for the inspiration ly
-
+</small>
 -DoomOS2.0
