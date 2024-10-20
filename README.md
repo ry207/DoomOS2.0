@@ -11,6 +11,10 @@ qemu-system-x86_64 boot.bin
 And it should boot up!
 
 <h1>Basic commands:</h1>
+<ul>
+  <li>[-] Clear screen</li>
+</ul>
+
 
 <p>
 There is no bootloader or kernel, none of it is programmed in c, just assembly
