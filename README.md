@@ -16,10 +16,4 @@ And it should boot up!
 </ul>
 
 
-<p>
-There is no bootloader or kernel, none of it is programmed in c, just assembly
-planning on adding a bootloader and all that at some point</p>
-<small>
-Thanks youtube:eprograms for the inspiration ly
-</small>
 -DoomOS2.0
